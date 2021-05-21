@@ -1,0 +1,25 @@
+
+h1{
+    font-family: Schadow BT;
+}
+
+.l1, td, th{
+    font-family: Schadow BT;
+    font-size: large;
+    letter-spacing: 0.9px;
+}
+
+.t1{
+        border: none;
+    border-bottom: 1px solid #c3781f;
+    border-radius: 6px;
+    text-align: center;
+    outline: none;
+}
+
+button{
+    outline: none;
+    font-family: Schadow BT;
+    letter-spacing: 0.9px;
+}
+
