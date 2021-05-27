@@ -11,7 +11,7 @@ public class login_dao {
  @Id
  int id;
  String first_name, last_name, email, dept, deg, emp_id, time_updated;
- int mobile_no, age;
+ String  mobile_no, age;
  
  
     public int getId() {
@@ -79,21 +79,28 @@ public class login_dao {
         this.emp_id = emp_id;
     }
 
-    public int getMobile_no() {
+    public String getMobile_no() {
         return mobile_no;
     }
 
-    public void setMobile_no(int mobile_no) {
+    public void setMobile_no(String mobile_no) {
         this.mobile_no = mobile_no;
     }
 
-    public int getAge() {
+    public String getAge() {
         return age;
     }
 
-    public void setAge(int age) {
+    public void setAge(String age) {
         this.age = age;
     }
+
+    @Override
+    public String toString() {
+        return "login_dao{" + "id=" + id + ", first_name=" + first_name + ", last_name=" + last_name + ", email=" + email + ", dept=" + dept + ", deg=" + deg + ", emp_id=" + emp_id + ", time_updated=" + time_updated + ", mobile_no=" + mobile_no + ", age=" + age + '}';
+    }
+
+    
 
     
  

@@ -27,7 +27,7 @@
   <div class ="w3-right">
       <form action ='logout' method='post'>
   <a href="insert_record.jsp" class="w3-bar-item w3-button ">Insert Record</a>
-  <a href="employee_list.jsp" class="w3-bar-item w3-button">Check Records</a>
+  <a href="employee_view.jsp" class="w3-bar-item w3-button">Check Records</a>
   
   <button type="submit" value="Submit" class="w3-bar-item w3-button w3-hover-blue-gray" style = 'border: none;
     background: none;'>Logout</button>

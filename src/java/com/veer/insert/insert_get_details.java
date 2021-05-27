@@ -42,15 +42,11 @@ public class insert_get_details extends HttpServlet {
             session.setAttribute("dept", dept);
             session.setAttribute("desig", desig);
             
-            System.out.println("Entry has been added to db !!!");
-            response.sendRedirect("welcome.jsp");
+            
+            
             
         }
         else{
-            System.out.println("Error in entring user. Please see the logs !!!");
-            System.out.println("<script type=\"text/javascript\">");
-            System.out.println("alert(Error in entring user. Please see the logs)");
-            System.out.println("</script");
             
             response.sendRedirect("insert_record.jsp");
         }
